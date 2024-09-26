@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: "Open Sans", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:  #F3F4F6;
+    height: 100vh;
+    width: 100%;
+}
+
+/* Estilos para el header */
+
+header{
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    margin: 8px auto;
+}
+
+.header-name{
+    font-size: 30px;
+    line-height: 36px;
+    color: #111827;
+    ;
+}
+
+.header-inicio{
+    font-size: 16px;
+    line-height: 24px;
+    color: #DB2777;
+    
+}
+
+.header-buttom{
+    background-color: #DB2777;
+    color: white;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    gap: 8px;
+}
+a{
+    text-decoration: none;
+}
+
+nav{
+    gap: 32px;
+    display: flex;
+    align-items: center;
+}
+
+/* Estilos para la seccion 1 de presentacion */
+
+.s1-contenedor{
+    background-color: #D6D3D1;
+    
+}
+
+.presentacion{
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 32px;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 57.6px;
+}
+
+span{
+    color:  #DB2777;
+}
+
+.presentacion-texto{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 8px;
+}
+
+/* Estilos para la seccion 2 de fortalezas */
+
+.Fortalezas{
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 32px 0;
+}
+
+h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43.2px;
+    margin-bottom: 16px;
+}
+
+.Fortalezas-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+}
+
+.Fortaleza-card{
+    display: flex;
+    max-width: 480px;
+    gap: 16px;
+}
+
+.Fortaleza-Titulo{
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 28.8px;
+}
+
+.Fortaleza-texto{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 8px;
+}
+
+/* Estilos para la seccion 3 HOBBIES*/
+
+.s3-contenedor{
+    background-color:  #E5E7EB;
+    ;
+}
+
+.hobbies{
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 32px 0;
+}
+
+.hobbies-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.hobbie-card{
+    max-width: 320px;
+    text-align: center;
+}
+
+.hobbie-titulo{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 8px;
+}
+
+.hobbie-texto{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px; 
+}
+
+.hobbie-img{
+    border-radius: 8px;
+}
+
+/* Estilos para el FOOTER*/
+
+footer {
+    background-color: #D6D3D1;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-container h3 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 57.6px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #DB2777;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+    border-radius: 5px;
+}
+
+.contact-button:hover {
+    background-color: #DB2777;
+    cursor: pointer;
+}
+
+/* Estilos para el PORTAFOLIO */
+
+portfolio {
+    max-width: 1440px;
+    background-color: #F3F4F6;
+    padding: 48px 48px;
+    text-align: center;
+}
+
+.portfolio-container {
+    max-width: 1024px;
+    margin: 0 auto;
+    gap: 16px;
+    padding: 45px;
+    border-radius: 0px 16px 0px 16px;
+    background-color: #F3F4F6;
+    
+}
+
+h2 {
+    font-weight: 600;
+    line-height: 43.2px;
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+.portafolio-sub {
+    font-weight: 400;
+    line-height: 27px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #111827;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.project-link {
+    display: block;
+    height: 100%; 
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.project:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+.project {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px black;
+    transition: transform 0.3s, box-shadow 0.3s;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h3 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #111827;
+    font-weight: 600;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+p {
+    color: #111827;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+    padding: 10px 0px;
+}
+
+.tags {
+    display: flex;
+    gap: 10px;
+}
+
+.tags span {
+    background-color: #FCE7F3;
+    color: #111827;
+    font-weight: 400;
+    padding: 2px 10px 2px 10px;
+    border-radius: 8px;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+/* ESTILOS PARA LA CALCULADORA*/
+
+.container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+.calculadora {
+    padding: 30px;
+    border: 5px solid #DB2777;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    background-color: #fff;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    
+}
+
+input{
+    width: 75%;
+    padding: 8px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px black;
+}
+
+input::placeholder{
+    text-align: center;
+    
+}
+
+button{
+    padding: 10px 20px;
+    background-color: #DB2777;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+
+button:hover{
+    background-color: #DB2777;
+    transition: transform 0.3s, box-shadow 0.3s;
+    transform: translateY(-8px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+#resultado{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+/* Media Queries para responsive design */
+
+@media (max-width: 1024px) {
+    .presentacion, .Fortalezas, .hobbies, .portfolio-container {
+        padding: 20px 20px;
+    }
+
+    .projects {
+        grid-template-columns: 1fr;
+    }
+
+    .Fortaleza-card, .hobbie-card {
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+    h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+}
+
+@media (max-width: 768px) {
+
+
+    .projects, .Fortalezas-cards, .hobbies-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centrar las cards de hobbies */
+    }
+
+    .hobbie-card img {
+        margin: 0 auto; /* Centrar las imágenes */
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    
+}
+
+
+
+
